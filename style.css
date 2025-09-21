@@ -27,3 +27,39 @@ header nav{
 .bookmark-btn{
     cursor: pointer;
 }
+@media (max-width:580px) {
+    header nav{
+        margin: 5px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    header nav div {
+        margin-bottom: 5px;
+    }
+    .hero-section h1{
+        font-size: 30px;
+        text-align: center;
+        width: 90%;
+        margin: -10 auto;
+    }
+    .hero-section p{
+        width: 90%;
+        text-align: center;
+    }
+    .menu-icon{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+}
+@media (max-width:650px) {
+    .menu-icon{
+        width: 100%;
+        justify-content: space-between;
+    }
+    header nav{
+        margin: 5px auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
